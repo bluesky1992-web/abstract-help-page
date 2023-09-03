@@ -49,15 +49,15 @@ export default function NavBar() {
         {nav ? (
           <FontAwesomeIcon
             icon={faTimes}
-            className=' right-[30px] text-3xl z-50 md:hidden text-white'
-            aria-hidden='true'
+            className=' right-[30px] text-3xl z-50 md:hidden text-white cursor-pointer'
+            
             onClick={showNav}
           />
         ) : (
           <FontAwesomeIcon
             icon={faBars}
-            className='text-3xl md:hidden text-white'
-            aria-hidden='true'
+            className='text-3xl md:hidden text-white cursor-pointer'
+            
             onClick={showNav}
           />
         )}
