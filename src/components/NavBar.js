@@ -49,23 +49,24 @@ export default function NavBar() {
         {nav ? (
           <FontAwesomeIcon
             icon={faTimes}
-            className=' right-[30px] text-3xl z-50 md:hidden text-white'
+            className=' right-[30px] text-3xl z-50 md:hidden text-white cursor-pointer'
             aria-hidden='true'
             onClick={showNav}
           />
         ) : (
           <FontAwesomeIcon
             icon={faBars}
-            className='text-3xl md:hidden text-white'
+            className='text-3xl md:hidden text-white cursor-pointer'
             aria-hidden='true'
             onClick={showNav}
           />
         )}
         {/* mobile nav */}
         <nav
-          className={`h-[100vh] fixed top-[0px] right-[0px] flex flex-col pt-16 gap-5 items-center  w-full md:hidden bg-black  z-40 duration-1000 ${
-            nav ? 'right-[0px]' : 'right-[-100vw]'
+          className={`h-[100vh] fixed top-[0px] right-[0px] flex flex-col pt-16 gap-5 items-center  w-full  bg-black md:hidden z-40 duration-1000 ${
+            nav ? 'right-0' : '-right-full'
           } `}
+          
         >
           <button className=' w-[85%] whitespace-nowrap bg-[#191a1b]  text-white  text-2xl py-2 px-8 border border-white rounded-lg '>
             Submit a request
