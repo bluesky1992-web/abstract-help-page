@@ -44,5 +44,5 @@ const services = [
     img:version
   },
 ];
-console.log(services[0].img);
+
 export default services;
