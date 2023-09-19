@@ -1,11 +1,11 @@
-import account from './images/account.png'
-import auth from './images/auth.png'
-import billing from './images/billing.png'
-import manage from './images/manage.png'
-import support from './images/support.png'
-import version from './images/version.png'
+import account from './images/account.png';
+import auth from './images/auth.png';
+import billing from './images/billing.png';
+import manage from './images/manage.png';
+import support from './images/support.png';
+import version from './images/version.png';
 
-const services = [
+  const services = [
   {
     id: 0,
     title: 'Using Abstract',
@@ -41,8 +41,8 @@ const services = [
     id: 5,
     title: 'Abstract support',
     body: 'Get in touch with a human.',
-    img:version
+    img: version
   },
 ];
 
-export default services;
+export default services
