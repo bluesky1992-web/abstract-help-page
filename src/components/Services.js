@@ -3,7 +3,7 @@ import services from '../db';
 
 export default function Services() {
   return (
-    <div className='py-20 grid sm:grid-cols-2 gap-9 justify-center items-center sm:ml-14  grid-cols-1 px-5 '>
+    <div className='py-20 grid sm:grid-cols-2 gap-9 justify-center items-center sm:ml-32  grid-cols-1 px-5 '>
       {services.map((service) => (
         <div className='' key={service.id}>
           <div className='flex  '>
