@@ -64,7 +64,7 @@ export default function NavBar() {
         {/* mobile nav */}
         <nav
           className={`h-[100vh] fixed top-[0px] right-[0px] flex flex-col pt-16 gap-5 items-center  w-full  bg-black md:hidden z-40 duration-1000 ${
-            nav ? 'right-0' : '-right-[100%]'
+            nav ? 'right-0' : '-right-full'
           } `}
         >
           <button className=' w-[85%] whitespace-nowrap bg-[#191a1b]  text-white  text-2xl py-2 px-8 border border-white rounded-lg '>
