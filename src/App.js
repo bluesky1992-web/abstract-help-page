@@ -2,15 +2,15 @@ import './index.css';
 import React from 'react';
 import NavBar from './components/NavBar';
 import SearchSection from './components/SearchSection';
-import services from './db.js'
 import Services from './components/Services';
-console.log(services)
+import Footer from './components/Footer';
 function App() {
   return (
-    <main className='font-sans h-screen '>
+    <main className='font-sans  flex flex-col'>
       <NavBar />
       <SearchSection />
       <Services />
+      <Footer />
     </main>
   );
 }
