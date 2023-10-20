@@ -3,7 +3,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function SearchSection() {
   return (
-    <header className='flex flex-col justify-center items-center bg-[#dadbf1] h-2/3 w-full'>
+    <header className='flex flex-col justify-center items-center bg-[#dadbf1] h-[400px] w-full'>
       <h1 className=' text-2xl sm:text-5xl md:text-7xl font-semibold'>How can we help?</h1>
       <div className='w-2/3 flex justify-center items-center z-0 pb-1 '>
         <input
