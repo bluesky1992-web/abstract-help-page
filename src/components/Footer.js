@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className='mt-auto  pl-28 bg-black w-full h-[398px]'>
-      <section className='flex gap-14 py-10'>
+    <footer className='mt-auto pl-2 sm:pl-28 bg-black w-full sm:h-[398px]'>
+      <section className='flex flex-wrap gap-14 py-10'>
         <div className='flex flex-col '>
           <h3 className='text-white text-2xl font-bold'>Abstract</h3>
           <ul className='text-white py-5'>
